@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/style.css">
+    <!-- <link rel="stylesheet" href="asset/fontawesome-free-6.0.0-web/css/fontawesome.css">
+    <link rel="stylesheet" href="asset/fontawesome-free-6.0.0-web/css/brands.css">
+    <link rel="stylesheet" href="asset/fontawesome-free-6.0.0-web/css/solid.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Yeabsera's Portfolio</title>
+</head>
+
+<body>
+    <header id="#nav">
+        <nav>
+            <!-- <h2 class="logo" >YEABSERA</h2> -->
+            <ul>
+                <li> <a href="#nav"><img src="asset/dark.png" width="70px" style="cursor: pointer;"></a></li>
+            </ul>
+            <ul>
+                <li><a href="#homepage" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li> 
+                <li><i id="theme-toggle" class="fa-solid fa-moon"></i></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="homepage">
+        <div class="homepage_items">
+            <span style="font-size: 40px; font-weight: 600;">Hi There,</span>
+            <br>
+            <br>
+            <span style="font-size: 25px; font-weight: 600;">I'm Yeabsera</span>
+            <br>
+            <span style="color: #9c2928; font-weight: 600">a Web Developer</span>
+            <br>
+            <br>
+            <br>
+            <a href="#about" class="btn">About Me <i class="fa-solid fa-arrow-down downicon"></i></a>
+            <br>
+            <br>
+            <br>
+            <div class="icons">
+                <a href="https://github.com/yeab101"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/yaba_101"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@lollipop_et"><i class="fa-brands fa-tiktok"></i> </a>
+            </div>
+        </div>
+        <div>
+            <img src="asset/profile.png" alt="Yeabsera's Profle" width="400px">
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about">
+            <h2>About Me</h2>
+            <p class="aboutp">Hello, I'm Yeabsera, a student at Harambee University. I am passionate about computer science and enjoy
+                learning new technologies. In my free time, I like to work on coding projects and contribute to
+                open-source software. I am also interested in artificial intelligence and its applications in various
+                fields. I believe in the power of technology to make a positive impact on the world.</p>
+            <p class="aboutp">Feel free to explore my projects and get in touch with me if you'd like to collaborate or discuss
+                anything related to technology and innovation.</p>
+
+        </div>
+    </section>
+
+    <center>
+        <h1>Featured Projects</h1>
+    </center>
+    <section id="projects">
+        <div class="project">
+            <img src="asset/project2.png" alt="Project 2">
+            <h3>Kiray Bet</h3>
+            <p>Find houses near you</p>
+        </div>
+        <div class="project">
+            <img src="asset/project3.png" alt="Project 3">
+            <h3>Movie Database</h3>
+            <p>Movies Updates</p>
+        </div>
+        <div class="project">
+            <img src="asset/project1.jpg" alt="Project 1">
+            <h3>Mines Game</h3>
+            <p>Find The Bomb</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <center>
+            <h1>Contact Me</h1>
+        </center>
+        <br>
+        <form action="mailto:yeabmealaku101@gmail.com" method="post">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="send-btn">Send</button>
+        </form>
+    </section>
+    <br><br><br>
+    <footer>
+        <p>&copy; 2023 Yeabsera</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
